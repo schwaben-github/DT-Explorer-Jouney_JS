@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Forms</title>
+</head>
+
+<body>
+
+	<form>
+		<fieldset>
+			<legend>Different input types</legend>
+
+			<label>Name: <input type="text" id="name" name="name"></label>
+
+			<label>Email: <input type="email" name="email" placeholder="me@me.com"></label><br>
+
+			<label>Password: <input type="password" name="pass"></label>
+
+			<br>Radio buttons<br>
+			<label><input type="radio" name="gender" value="male" checked>Male</label>
+			<label><input type="radio" name="gender" value="female>">Female</label>
+
+			<br>Checkboxes<br>
+			<label><input type="checkbox" name="contact1" value="Bike">Contact me via email</label>
+			<label><input type="checkbox" name="contact2" value="Bike">Contact me via phone</label>
+
+			<label>Number: <input type="number" name="numberInput" min="1" max="5"></label>
+
+			<label>Range: <input type="range" name="rangeInput" min="1" max="10"></label>
+
+			<label>Color: <input type="color" name="colorInput" min="1" max="10"></label>
+
+			<label>Date: <input type="date" name="dateInput"></label>
+
+			<label>URL: <input type="url" name="urlInput"></label>
+
+			<input type="submit" value="Click Here">
+		</fieldset>
+	</form>
+
+	<!-- Input types: text, email, password, radiobutton, checkbox, submit -->
+	<!-- More input types: number, range, color, date, url -->
+
+	<!-- Attributes: Name, id, value, placeholder (not official) -->
+</body>
+
+</html>

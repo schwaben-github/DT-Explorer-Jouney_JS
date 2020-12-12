@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+}
+
+#gallery {
+  margin-top: 10px;
+}
+
+#gallery img {
+  width: 50%;
+}
